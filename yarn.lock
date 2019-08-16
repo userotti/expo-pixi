@@ -3622,6 +3622,19 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
+expo-gl-cpp@~6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-6.0.0.tgz#5a32f726f061ed75a7c36997f37be93e3101c97a"
+  integrity sha512-y/Aaltcii4J4jTjBf3J9LVHvHTjGDVMRjyB9vGQ/UY4jKGIAi/yNCTZ3bo5p1fkCJ+PXXSas/Wl3u7YLqMbybQ==
+
+expo-gl@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-6.0.0.tgz#5e9bbab0e884e4404c95170ec87ae16501e9a92f"
+  integrity sha512-jzs5+RjbcU1gN2yTwo5YHtgiheyTs9JLr1FbSO3QSigacQUtuUWM+PuafZne8BZ6l7zkH/5X8ZeAloAwPnB2PQ==
+  dependencies:
+    expo-gl-cpp "~6.0.0"
+    prop-types "^15.6.2"
+
 express-session@~1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.11.3.tgz#5cc98f3f5ff84ed835f91cbf0aabd0c7107400af"
